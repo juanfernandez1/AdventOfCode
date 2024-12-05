@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-let input=fs.readFileSync('./input.txt','utf8');
+let input=fs.readFileSync('./example.txt','utf8');
 
 let filteredinput = /mul\([0-9]{1,3},[0-9]{1,3}\)/g
 let arrayofmultiply=[0]
